@@ -1,3 +1,17 @@
+/*Description
+Rotate a vector around an axis in 3D space.
+Input:
+
+Ten reals:
+1.The 3D coordinates of the vector.
+2.The rotation angle in radians.
+3.The 3D coordinates of a point of the axis.
+4.The 3D coordinates of the direction vector of the axis.
+The length of the direction vector is greater than 1e-8.
+
+Output:
+Three reals, the 3D coordinates of the vector after its rotation.*/
+
 #include <iostream>
 #include <vector>
 #include <iomanip>
